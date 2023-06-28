@@ -84,6 +84,9 @@ def handle_response(message: str) -> str:
     elif p_message == 'sampo':
         return 'team comps: https://genshinlab.com/honkai-star-rail-team/tingyun-team-guide/\n\n'\
                'optimization: https://genshin.gg/star-rail/characters/sampo/'
+    elif p_message == 'luocha':
+        return 'team comps: https://genshinlab.com/honkai-star-rail-team/luocha-team-guide/\n\n'\
+               'optimization: coming soon'
     elif p_message == 'data':
         return 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQLKk4LzAE2EBo_Lksutbi6X6HIUW_wqo7iL_KDkC_m95FSqqdQ9F9PVFYsu03HNODAPFNRG13wpsdX/pubhtml'
     elif p_message == 'help':
